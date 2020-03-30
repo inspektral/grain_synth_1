@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1852.0, 929.0 ],
+		"rect" : [ 34.0, 77.0, 1031.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,21 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 60.0,
+					"id" : "obj-17",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 21.587814331054688, 117.1961669921875, 233.35064697265625, 141.0 ],
+					"text" : "tito\nscutari",
+					"textcolor" : [ 0.541176497936249, 0.541176497936249, 0.541176497936249, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-103",
 					"maxclass" : "comment",
@@ -151,7 +166,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 660.74462890625, 361.631591796875, 67.021286010742188, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "pitch max*"
 				}
 
@@ -990,7 +1004,7 @@
 						"originaltempo" : 120.000000000000142,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
-						"pitchshift" : [ 0.41 ],
+						"pitchshift" : [ 0.409896999195136 ],
 						"pitchshiftcent" : [ -1544 ],
 						"quality" : "basic",
 						"timestretch" : [ 1 ]
@@ -1047,21 +1061,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"timestretch" : [ 0 ],
-									"quality" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"mode" : [ "basic" ],
-									"slurtime" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"originallengthms" : [ 0.0 ],
 									"pitchcorrection" : [ 0 ],
 									"basictuning" : [ 440 ],
+									"play" : [ 0 ],
+									"mode" : [ "basic" ],
+									"slurtime" : [ 0.0 ],
+									"timestretch" : [ 0 ],
 									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ]
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"speed" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ]
 								}
 
 							}
