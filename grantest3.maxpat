@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1298.0, 617.0 ],
+		"rect" : [ 26.0, 85.0, 1298.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,43 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-95",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 929.0, 179.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-94",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 925.0, 667.0, 88.0, 22.0 ],
+					"text" : "setcurve 2 -0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.5, 0.5, 0, 0.5, 1.0, 1.0, 0, -0.5 ],
+					"domain" : 1.0,
+					"id" : "obj-63",
+					"maxclass" : "function",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "float", "", "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1065.5406494140625, 695.84210205078125, 200.0, 100.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-88",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -60,21 +97,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"quality" : [ "basic" ],
-									"formantcorrection" : [ 0 ],
-									"play" : [ 0 ],
 									"pitchshift" : [ 1.0 ],
-									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"mode" : [ "basic" ],
 									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
 									"timestretch" : [ 0 ],
 									"basictuning" : [ 440 ],
-									"originallengthms" : [ 0.0 ],
-									"originaltempo" : [ 120.0 ]
+									"quality" : [ "basic" ],
+									"play" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ]
 								}
 
 							}
@@ -156,7 +193,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1079.9998779296875, 864.21044921875, 100.0, 22.0 ]
+					"patching_rect" : [ 1081.54052734375, 911.05255126953125, 100.0, 22.0 ]
 				}
 
 			}
@@ -167,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1176.842041015625, 792.26318359375, 29.0, 22.0 ],
+					"patching_rect" : [ 1176.3826904296875, 893.10528564453125, 29.0, 22.0 ],
 					"text" : "sqrt"
 				}
 
@@ -181,7 +218,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1176.842041015625, 755.0, 50.0, 22.0 ]
+					"patching_rect" : [ 1176.3826904296875, 855.84210205078125, 50.0, 22.0 ]
 				}
 
 			}
@@ -192,7 +229,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1096.7894287109375, 742.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1096.330078125, 842.84210205078125, 29.5, 22.0 ],
 					"text" : "!- 1."
 				}
 
@@ -204,7 +241,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1065.5406494140625, 792.26318359375, 29.0, 22.0 ],
+					"patching_rect" : [ 1065.081298828125, 893.10528564453125, 29.0, 22.0 ],
 					"text" : "sqrt"
 				}
 
@@ -218,7 +255,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1066.0, 710.0, 50.0, 22.0 ]
+					"patching_rect" : [ 1065.5406494140625, 810.84210205078125, 50.0, 22.0 ]
 				}
 
 			}
@@ -243,7 +280,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1065.5406494140625, 616.0, 155.66668701171875, 27.46551513671875 ],
+					"patching_rect" : [ 1065.5406494140625, 615.0, 155.66668701171875, 27.46551513671875 ],
 					"size" : 1.0
 				}
 
@@ -477,24 +514,24 @@
 								"absolutepath" : "C:/Users/titop/Downloads/Ravel - Miroirs No. 5, La Vallée des Cloches Sheet Music + Audio.mp3",
 								"filename" : "Ravel - Miroirs No. 5, La Vallée des Cloches Sheet Music + Audio.mp3",
 								"filekind" : "audiofile",
-								"selection" : [ 0.176744186046512, 0.26046511627907 ],
+								"selection" : [ 0.325581395348837, 0.665116279069767 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"quality" : [ "basic" ],
-									"formantcorrection" : [ 0 ],
-									"play" : [ 0 ],
 									"pitchshift" : [ 1.0 ],
-									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"mode" : [ "basic" ],
 									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
 									"timestretch" : [ 0 ],
 									"basictuning" : [ 440 ],
-									"originallengthms" : [ 0.0 ],
-									"originaltempo" : [ 120.0 ]
+									"quality" : [ "basic" ],
+									"play" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ]
 								}
 
 							}
@@ -505,21 +542,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"quality" : [ "basic" ],
-									"formantcorrection" : [ 0 ],
-									"play" : [ 0 ],
 									"pitchshift" : [ 1.0 ],
-									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"mode" : [ "basic" ],
 									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
 									"timestretch" : [ 0 ],
 									"basictuning" : [ 440 ],
-									"originallengthms" : [ 0.0 ],
-									"originaltempo" : [ 120.0 ]
+									"quality" : [ "basic" ],
+									"play" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ]
 								}
 
 							}
@@ -527,24 +564,24 @@
 								"absolutepath" : "C:/Users/titop/Music/random_music/Jethro Tull - Aqualung.mp3",
 								"filename" : "Jethro Tull - Aqualung.mp3",
 								"filekind" : "audiofile",
-								"selection" : [ 0.0, 1.0 ],
+								"selection" : [ 0.074418604651163, 0.427906976744186 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"quality" : [ "basic" ],
-									"formantcorrection" : [ 0 ],
-									"play" : [ 0 ],
 									"pitchshift" : [ 1.0 ],
-									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"mode" : [ "basic" ],
 									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
 									"timestretch" : [ 0 ],
 									"basictuning" : [ 440 ],
-									"originallengthms" : [ 0.0 ],
-									"originaltempo" : [ 120.0 ]
+									"quality" : [ "basic" ],
+									"play" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ]
 								}
 
 							}
@@ -552,24 +589,24 @@
 								"absolutepath" : "C:/Users/titop/Music/random_music/SUNN O))) - Frost (C).mp3",
 								"filename" : "SUNN O))) - Frost (C).mp3",
 								"filekind" : "audiofile",
-								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
+								"selection" : [ 0.209302325581395, 0.358139534883721 ],
+								"loop" : 0,
 								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"quality" : [ "basic" ],
-									"formantcorrection" : [ 0 ],
-									"play" : [ 0 ],
 									"pitchshift" : [ 1.0 ],
-									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"mode" : [ "basic" ],
 									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
 									"timestretch" : [ 0 ],
 									"basictuning" : [ 440 ],
-									"originallengthms" : [ 0.0 ],
-									"originaltempo" : [ 120.0 ]
+									"quality" : [ "basic" ],
+									"play" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ]
 								}
 
 							}
@@ -1108,15 +1145,15 @@
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 13753.0, "ms" ],
-						"loopstart" : [ 13703.295658402703339, "ms" ],
+						"loopend" : [ 44138.0, "ms" ],
+						"loopstart" : [ 43981.55983186083904, "ms" ],
 						"mode" : "basic",
-						"originallength" : [ 8.694081665142777, "ticks" ],
-						"originaltempo" : 0.010867601757549,
+						"originallength" : [ 0.869408166514302, "ticks" ],
+						"originaltempo" : 0.001086760175755,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
-						"pitchshift" : [ 0.947092288614183 ],
-						"pitchshiftcent" : [ -94 ],
+						"pitchshift" : [ 3.061086917489766 ],
+						"pitchshiftcent" : [ 1937 ],
 						"quality" : "basic",
 						"timestretch" : [ 1 ]
 					}
@@ -1400,6 +1437,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"order" : 2,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 1 ],
+					"order" : 0,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"order" : 1,
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -1681,6 +1735,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-64", 0 ]
 				}
@@ -1724,7 +1785,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-77", 0 ],
+					"destination" : [ "obj-63", 0 ],
 					"source" : [ "obj-71", 0 ]
 				}
 
@@ -1859,6 +1920,13 @@
 					"destination" : [ "obj-8", 2 ],
 					"midpoints" : [ 507.97283935546875, 432.0, 507.972819010416686, 432.0 ],
 					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-94", 0 ]
 				}
 
 			}
