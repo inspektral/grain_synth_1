@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 881.0, 617.0 ],
+		"rect" : [ 34.0, 77.0, 1298.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -154,6 +154,10 @@
 							"number" : 1,
 							"data" : [ 6, "obj-16", "rslider", "list", 0.549076484552541, 1.142482998357685, 5, "obj-12", "flonum", "float", 1.403679251670837, 6, "obj-73", "gain~", "list", 119, 10.0, 5, "obj-1", "toggle", "int", 0, 5, "obj-145", "toggle", "int", 0, 5, "obj-13", "flonum", "float", 0.0, 5, "obj-28", "number", "int", 100000, 6, "obj-39", "rslider", "list", 0.408268733850129, 0.444444444444444, 5, "obj-38", "flonum", "float", 42241.05859375, 6, "obj-45", "rslider", "list", 62.685372128614873, 72.707348806212863, 5, "obj-47", "flonum", "float", 78.193328857421875, 5, "<invalid>", "toggle", "int", 0, 5, "<invalid>", "toggle", "int", 0, 6, "obj-58", "rslider", "list", 4.006588576554374, 4.006588576554374, 5, "obj-61", "flonum", "float", 4.006588459014893, 6, "obj-52", "rslider", "list", 1.272153444776807, 1.773252278656706, 5, "obj-51", "flonum", "float", 4.930358409881592, 5, "obj-41", "flonum", "float", 0.0, 6, "obj-66", "gain~", "list", 0, 10.0, 6, "obj-69", "rslider", "list", 0.240391290297786, 0.76786374701347, 6, "obj-5", "gain~", "list", 134, 10.0, 4, "obj-63", "function", "clear", 8, "obj-63", "function", "add_with_curve", 0.0, 0.0, 0, 0.0, 8, "obj-63", "function", "add_with_curve", 0.5, 0.5, 0, 0.751, 8, "obj-63", "function", "add_with_curve", 1.0, 1.0, 0, -0.751, 5, "obj-63", "function", "domain", 1.0, 6, "obj-63", "function", "range", 0.0, 1.0, 5, "obj-63", "function", "mode", 1, 6, "obj-18", "gain~", "list", 0, 10.0, 5, "obj-68", "flonum", "float", 0.0, 4, "obj-91", "function", "clear", 8, "obj-91", "function", "add_with_curve", 0.0, 0.0, 0, 0.0, 8, "obj-91", "function", "add_with_curve", 1899.121010638297776, 0.960851236979167, 0, 0.455, 8, "obj-91", "function", "add_with_curve", 2048.0, 0.0, 0, -0.555, 5, "obj-91", "function", "domain", 2048.0, 6, "obj-91", "function", "range", 0.0, 1.0, 5, "obj-91", "function", "mode", 1, 5, "<invalid>", "toggle", "int", 0 ]
 						}
+, 						{
+							"number" : 2,
+							"data" : [ 6, "obj-16", "rslider", "list", 1.182360547094921, 1.182360547094921, 5, "obj-12", "flonum", "float", 1.652912259101868, 6, "obj-73", "gain~", "list", 119, 10.0, 5, "obj-1", "toggle", "int", 0, 5, "obj-145", "toggle", "int", 0, 5, "obj-13", "flonum", "float", 3.0, 5, "obj-28", "number", "int", 100000, 6, "obj-39", "rslider", "list", 0.905038759689923, 0.905038759689923, 5, "obj-38", "flonum", "float", 9480.208984375, 6, "obj-45", "rslider", "list", 44.994524946004013, 50.005513284803015, 5, "obj-47", "flonum", "float", 56.862709045410156, 6, "obj-58", "rslider", "list", 39.450570987163708, 171.318685166084691, 5, "obj-61", "flonum", "float", 119.203727722167969, 6, "obj-52", "rslider", "list", 0.810932562063691, 0.810932562063691, 5, "obj-51", "flonum", "float", 0.533278703689575, 5, "obj-41", "flonum", "float", 3.0, 6, "obj-66", "gain~", "list", 0, 10.0, 6, "obj-69", "rslider", "list", 0.103268251085453, 0.854916501905303, 6, "obj-5", "gain~", "list", 0, 10.0, 4, "obj-63", "function", "clear", 8, "obj-63", "function", "add_with_curve", 0.0, 0.0, 0, 0.0, 8, "obj-63", "function", "add_with_curve", 0.5, 0.5, 0, 0.600000023841858, 8, "obj-63", "function", "add_with_curve", 1.0, 1.0, 0, -0.600000023841858, 5, "obj-63", "function", "domain", 1.0, 6, "obj-63", "function", "range", 0.0, 1.0, 5, "obj-63", "function", "mode", 1, 6, "obj-18", "gain~", "list", 0, 10.0, 5, "obj-68", "flonum", "float", -0.600000023841858, 4, "obj-91", "function", "clear", 8, "obj-91", "function", "add_with_curve", 0.0, 0.0, 0, 0.0, 8, "obj-91", "function", "add_with_curve", 167.188967136150239, 1.0, 0, -0.395, 8, "obj-91", "function", "add_with_curve", 1936.353286384976627, 1.0, 0, 0.0, 8, "obj-91", "function", "add_with_curve", 2048.0, 0.0, 0, -0.405, 5, "obj-91", "function", "domain", 2048.0, 6, "obj-91", "function", "range", 0.0, 1.0, 5, "obj-91", "function", "mode", 1, 5, "obj-82", "toggle", "int", 0 ]
+						}
  ]
 				}
 
@@ -267,7 +271,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 1167.151408450704139, 1.0, 0, 0.555, 2048.0, 0.0, 0, 0.195 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 167.188967136150239, 1.0, 0, -0.395, 1936.353286384976627, 1.0, 0, 0.0, 2048.0, 0.0, 0, -0.405 ],
 					"domain" : 2048.0,
 					"id" : "obj-91",
 					"maxclass" : "function",
@@ -1261,15 +1265,15 @@
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 2667.0, "ms" ],
-						"loopstart" : [ 2581.39534883720944, "ms" ],
+						"loopend" : [ 9536.0, "ms" ],
+						"loopstart" : [ 9480.209179278946976, "ms" ],
 						"mode" : "basic",
-						"originallength" : [ 0.960000028610229, "ticks" ],
-						"originaltempo" : 0.01,
+						"originallength" : [ 0.800000023841858, "ticks" ],
+						"originaltempo" : 0.009546612452018,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
-						"pitchshift" : [ 0.799348526550783 ],
-						"pitchshiftcent" : [ -388 ],
+						"pitchshift" : [ 0.533278676023952 ],
+						"pitchshiftcent" : [ -1088 ],
 						"quality" : "basic",
 						"timestretch" : [ 1 ]
 					}
